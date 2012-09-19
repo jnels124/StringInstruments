@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=frequency
+comment0.target=SineString(double)
+comment0.text=\r\n\ Creates\ a\ ringBuffer\ object,\ it's\ parameter\ being\ the\ size\ of\ the\ ringBuffer\ being\ created.\r\n\ All\ values\ in\ the\ buffer\ are\ initialized\ to\ 0\ to\ imitate\ a\ SineString\ at\ rest.\r\n\ \r\n\ An\ IllegalArgumentException\ is\ thrown\ if\ the\ pre-conditons\ are\ not\ met.\r\n\ \r\n\ Pre-Conditions-\ The\ frequency\ is\ a\ positive\ integer.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ bufferSize\ is\ >\ 2\ \r\n
+comment1.params=init
+comment1.target=SineString(double[])
+comment1.text=\r\n\ This\ constructer\ creates\ a\ ringBuffer\ and\ initializes\ it's\ values\r\n\ to\ the\ values\ in\ the\ array.\ These\ values\ will\ be\ used\ to\ create\ a\ sine\ wave.\r\n\r\n\ This\ constucter\ will\ only\ be\ used\ for\ testing\ purposes.\r\n\ \r\n\ An\ IllegalArgumentException\ is\ thrown\ if\ the\ precondions\ are\ not\ met.\ \r\n\ \r\n\ Pre-Conditions-\ The\ array\ contains\ more\ than\ 2\ values.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ All\ values\ in\ the\ array\ have\ to\ be\ between\ -.5\ and\ .5\ \r\n
+comment2.params=
+comment2.target=void\ pluck()
+comment2.text=\r\n\ Fills\ the\ ringBuffer\ with\ the\ values\ needed\ to\ create\ a\ single\ Sine\ wave.\r\n
+comment3.params=
+comment3.target=void\ tic()
+comment3.text=\r\n\ Removes\ the\ sample\ at\ the\ front\ of\ the\ list,\ applies\ the\ ENERGY_DECAY_FACTOR,\ and\r\n\ the\ sample\ is\ added\ to\ the\ end\ of\ the\ list.\ \r\n
+comment4.params=
+comment4.target=double\ sample()
+comment4.text=\r\n\ Returns\ the\ first\ sample\ in\ the\ buffer\ \r\n
+comment5.params=
+comment5.target=int\ time()
+comment5.text=\r\n\ Returns\ the\ number\ of\ times\ tic()\ has\ been\ called\r\n
+numComments=6

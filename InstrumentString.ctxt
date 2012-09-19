@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ pluck()
+comment0.text=Fill\ ring\ buffer\ with\ initial\ values.
+comment1.params=
+comment1.target=void\ tic()
+comment1.text=Advance\ string\ vibration\ simulation\ one\ step.
+comment2.params=
+comment2.target=double\ sample()
+comment2.text=\r\n\ Access\ the\ current\ sample.\r\n\ @return\ the\ current\ sample\ value\r\n
+comment3.params=
+comment3.target=int\ time()
+comment3.text=\ \r\n\ Access\ the\ time\ state\ of\ the\ simulation.\r\n\ @return\ the\ number\ of\ times\ tic()\ has\ been\ called\r\n
+numComments=4

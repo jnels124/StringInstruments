@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MultiStringInstrument()
+comment0.text=\r\n\ Initializes\ the\ elements\ in\ the\ array\ with\ the\ correct\ frequency\ for\ it's\ place\ in\ the\ \r\n\ array.\r\n
+comment1.params=string
+comment1.target=boolean\ hasString(char)
+comment1.text=\r\n\ Checks\ the\ parameter\ to\ determine\ if\ it\ is\ a\ valid\ string\ for\ the\ instrument\r\n
+comment2.params=string
+comment2.target=void\ pluck(char)
+comment2.text=\r\n\ Takes\ the\ parameter\ and\ plucks\ the\ corresponding\ string\ or\ throws\ an\ IllegalArgumentException\r\n\ if\ the\ string\ doesn't\ exist.\ \r\n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\r\n\ Takes\ the\ current\ sample\ from\ all\ strings,adds\ them,\ and\ sends\ them\ to\r\n\ the\ sourceLine\ in\ StdAudio\ to\ play\ the\ sample\r\n
+comment4.params=
+comment4.target=void\ tic()
+comment4.text=\r\n\ Calls\ the\ corresponding\ tic()\ method\ for\ each\ InstrumentString\ object\r\n
+numComments=5
