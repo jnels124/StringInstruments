@@ -6,6 +6,7 @@ import static org.junit.Assert.assertFalse;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
 /** The MultiStringInstrumentTest class. */
 public class MultiStringInstrumentTest {
     static String validKeys = "q2we4r5ty7u8i9op-[=zxdcfvgbnjmk,.;/' ";

@@ -6,7 +6,7 @@ import java.util.*;
  * an instrument.
  * 
  * @author (Jesse Nelson) 
- * @version (September 1, 2012 : Windows 7(X64) Java 1.7) 
+ * @version (September 1, 2013: Windows 7(X64) Java 1.7) 
  */
 public class SteelString implements InstrumentString {
     final static double ENERGY_DECAY_FACTOR = 0.996;        // Decay factor for a steel string

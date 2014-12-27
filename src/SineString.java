@@ -5,7 +5,7 @@ import java.util.*;
  * This class implements the InstrumentString interface and creates a Sine wave.
  * 
  * @author (Jesse Nelson) 
- * @version (Windows 7 (x64) Java 1.7 09/01/2012)
+ * @version (Windows 7 (x64) Java 1.7 09/01/2013)
  */
 public class SineString implements InstrumentString {
 

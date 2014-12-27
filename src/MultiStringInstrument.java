@@ -6,7 +6,7 @@ import java.util.*;
  * 37 different strings. (More can be added by adding additional keys to KEYBOARD)
  * 
  * @author (Jesse Nelson) 
- * @version (September 4, 2012 : Windows 7(x64) Java 1.7)
+ * @version (September 4, 2013 : Windows 7(x64) Java 1.7)
  */
 public class MultiStringInstrument implements Instrument {
     /**

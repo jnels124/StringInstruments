@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ setUp()
+comment0.text=Called\ before\ every\ test\ case\ method.
+comment1.params=
+comment1.target=void\ hasStringTest()
+comment2.params=
+comment2.target=void\ listen()
+numComments=3

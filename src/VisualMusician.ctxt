@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ This\ main\ driver\ embodies\ an\ infinite\ loop\ that\ senses\n\ keypresses\ and\ plucks\ the\ associated\ string\ if\ one\ exists.\n\ @param\ args\ ignored\n
+numComments=1

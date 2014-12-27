@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=InstrumentLite()
+comment0.text=Creates\ two\ steel\ strings,\ for\ concert\ A\ and\ C.
+comment1.params=string
+comment1.target=boolean\ hasString(char)
+comment1.text=\n\ Indicates\ if\ the\ parameter\ corresponds\ to\ a\ string\ in\ the\ instrument.\n\ @param\ key\ a\ character\ that\ may\ correspond\ to\ a\ string\n\ @return\ true\ if\ there\ is\ a\ string\ that\ corresponds\ to\ the\ parameter;\n\ \ \ \ \ \ \ \ \ false\ otherwise\n
+comment2.params=string
+comment2.target=void\ pluck(char)
+comment2.text=\n\ Plucks\ the\ string\ associated\ with\ the\ parameter.\n\ @param\ key\ a\ character\ corresponding\ to\ a\ key\ to\ be\ plucked\n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=Plays\ the\ current\ sound\ (sum\ of\ all\ strings).
+comment4.params=
+comment4.target=void\ tic()
+comment4.text=Advances\ the\ simulation\ by\ invoking\ each\ string's\ tic\ method.
+numComments=5

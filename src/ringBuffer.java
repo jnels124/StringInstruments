@@ -8,7 +8,7 @@ import java.util.*;
  * List interface is implemented and it's methods are used to imitate a "Ring Buffer"
  * 
  * @author (Jesse Nelson) 
- * @version (September 1, 2012 : Windows 7(x64) Java 1.7)
+ * @version (September 1, 2013 : Windows 7(x64) Java 1.7)
  */
 public class ringBuffer {
     int bufferSize;         // Size of buffer
